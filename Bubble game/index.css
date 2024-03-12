@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(153, 195, 193);
+    /* background-image: url(./IMG_3186.JPG); */
+    
+}
+
+
+#panel{
+    overflow: hidden;
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#ptop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(102, 127, 124);   
+    display: flex;
+    color: white;
+    padding: 0 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-weight: 400;
+    font-size: 22px;
+}
+.box{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(82, 161, 137);
+    font-weight: 600;
+    font-size: 25px;
+    
+    
+}
+
+#pbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(102, 127, 124);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    
+}
+.bubble:hover{
+    background-color: rgb(55, 78, 76);
+    cursor: pointer;
+}
